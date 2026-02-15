@@ -12,7 +12,7 @@
 ## Full TCP Scan
 
 ```bash
-nmap -A -T4 -p- <TARGET_IP>
+nmap -sS -sV -p- <TARGET_IP>
 ```
 
 ## Open TCP Ports
